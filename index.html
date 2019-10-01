@@ -22,11 +22,43 @@
                         <li><a class="current" href="index.html">Home</a></li>
                         <li><a href="about.html">About</a></li>
                         <li><a href="contact.html">Contact</a></li>
-                        <li><a href="">Language</a>
-                        <li><a href="">Sign in</a></li>
+                        <li><a class="onclick" onclick="document.getElementById('id01').style.display='block'">Sign in</a></li>
                     </ul>
             </div>
         </nav>
+
+        <div id="id01" class="modal">
+
+          <form class="modal-content animate" action="/action_page.php">
+            <div class="imgcontainer">
+              <i><i class="fas fa-sun fa-7x"></i></i>
+              <span onclick="document.getElementById('id01').style.display='none'"
+          class="close" title="Close Modal">&times;</span>
+            </div>
+
+            <div class="container">
+              <label for="uname"><b>Username</b></label>
+              <input type="text" placeholder="Enter Username" name="uname" required>
+
+              <label for="psw"><b>Password</b></label>
+              <input type="password" placeholder="Enter Password" name="psw" required>
+
+              <button type="submit">Login</button>
+
+            </div>
+
+            <label>
+                <input type="checkbox" checked="checked" name="remember"> Remember me
+              </label>
+
+            <div class="container">
+
+                  <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+              <span class="psw">Forgot <a href="#">password?</a></span>
+            </div>
+
+          </form>
+        </div>
 
         <div id="showcase">
             <div class="container">
@@ -41,7 +73,7 @@
     <div class="info-img"></div>
         <div class="info-content">
             <h2><span class="text-primary">Sunrise Resort <br></span> Turks & Caicos</h2>
-            <p>Come and find out why Sunrise Resort on Grand Turk is the only one of it's kind after our St. Lucia location. Ready for some well-deserved sun and surf? Our stunning location is a world-renowned destination for visitors on a quest to find their place in the sun. A historical fixture of Grand Turk, SRTC has been family owned since it's humble beginnings in July of 1957.</p>
+            <p>Come find out why Sunrise Resort on Grand Turk is the only resort of it's kind after our St. Lucia location. Ready for some well-deserved sun and surf? Our stunning location is a world-renowned destination for visitors on a quest to find their place in the sun. A historical fixture of Grand Turk, SRTC has been family owned since it's humble beginnings in July of 1957.</p>
             <a href="about.html" class="btn btn-light">Read More</a>
         </div>
 </section>
@@ -51,7 +83,7 @@
 <section id="book-online" class="py-1">
             <h2 class="m-heading text-center">The Online <span class="text-primary">Advantage</span></h2>
             <div class="paragraph-two">
-                <p id="paragraph-two">Get incentives for booking online and plan your escape from wherever you are. <br> Book now and Save up to twenty five percent on all VIP suites and family rooms.</p>
+                <p id="paragraph-two">Plan your escape from wherever you are and get incentives for booking online. <br> Book now and Save up to twenty five percent on all VIP suites and family rooms.</p>
             </div>
             <div class="online-container">
             <article class="card">
@@ -135,3 +167,4 @@
     </div>
     </footer>
 
+    <script src="js/main.js"></script>

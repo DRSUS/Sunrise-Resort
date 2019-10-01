@@ -1,6 +1,13 @@
-#navbar .logo {
+/* #navbar .logo {
   float: none;
   text-align: center;
+} */
+
+
+#navbar a {
+  float: none;
+  text-align: center;
+  /* display: none; */
 }
 
 #navbar ul,
@@ -8,8 +15,14 @@
   float: none;
 }
 
+
 #navbar ul li a {
   padding-bottom: 5px;
+  border-bottom: 1px solid;
+}
+
+#book-online .text-center {
+  margin-top: 300px;
 }
 
 /* Showcase */
@@ -23,6 +36,10 @@
   padding-bottom: 30px;
 }
 
+#showcase .h1 {
+  font-size: 16px;
+}
+
 
 /* Home Info */
 #home-info .info-img {
@@ -33,7 +50,17 @@
 #home-info .info-content {
   float: none;
   width: 100%;
+  height: auto;
 }
+
+#partners div {
+  display: none;
+}
+
+#book-online .online-container {
+  display: block;
+}
+
 /* Boxes */
 .box {
   float: none;
@@ -62,7 +89,39 @@
 
 /* Contact */
 #contact-info .box {
-  border-bottom: #888 dotted 1px;
+  display: none;
 }
+
+#contact-input .container {
+  height: auto;
+  border-radius: 0px;
+}
+
+.card {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+#main-footer .footer-container {
+  display: block;
+  width: 100%;
+}
+
+@media screen and (max-width: 500px) {
+  #showcase .showcase-content h1 {
+    color: rgb(252, 252, 252);
+    font-size: 25px;
+    text-align: center;
+  }
+
+  #showcase .text-primary {
+    color: #ffae00;
+  }
+
+
+}
+
+
+
 
 
