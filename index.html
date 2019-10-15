@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name= "description" content= "Welcome to the Sunrise Experience at Turks and Caicos">
+    <meta name= "keywords" content= "Resort, Turks and Caicos, Sunrise, Grand Turk">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" media="screen and (max-width: 768px)"href="css/mobile.css">
+    <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One|Libre+Franklin&display=swap" rel="stylesheet">
+
+    <title>Sunrise Resort T&C | Welcome</title>
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+            <div class="container">
+
+                    <h1 class="logo"><a href="index.html">SRTC</a></h1>
+
+                    <ul>
+                        <li><a class="current" href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a class="onclick" onclick="document.getElementById('id01').style.display='block'">Sign in</a></li>
+                    </ul>
+            </div>
+        </nav>
+
+        <div id="id01" class="modal">
+
+          <form class="modal-content animate" action="/action_page.php">
+            <div class="imgcontainer">
+              <i><i class="fas fa-sun fa-7x"></i></i>
+              <span onclick="document.getElementById('id01').style.display='none'"
+          class="close" title="Close Modal">&times;</span>
+            </div>
+
+            <div class="container">
+              <label for="uname"><b>Username</b></label>
+              <input type="text" placeholder="Enter Username" name="uname" required>
+
+              <label for="psw"><b>Password</b></label>
+              <input type="password" placeholder="Enter Password" name="psw" required>
+
+              <button type="submit">Login</button>
+
+            </div>
+
+            <label>
+                <input type="checkbox" checked="checked" name="remember"> Remember me
+              </label>
+
+            <div class="container">
+
+                  <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+              <span class="psw">Forgot <a href="#">password?</a></span>
+            </div>
+
+          </form>
+        </div>
+
+        <div id="showcase">
+            <div class="container">
+                <div class="showcase-content">
+                    <h1>Everybody Loves the<br> <span class="text-primary">Sunshine</span>  </h1>
+                </div>
+            </div>
+        </div>
+    </header>
+
+<section id="home-info" class="bg-gradient">
+    <div class="info-img"></div>
+        <div class="info-content">
+            <h2><span class="text-primary">Sunrise Resort <br></span> Turks & Caicos</h2>
+            <p>Come find out why Sunrise Resort on Grand Turk is the only resort of it's kind after our St. Lucia location. Ready for some well-deserved sun and surf? Our stunning location is a world-renowned destination for visitors on a quest to find their place in the sun. A historical fixture of Grand Turk, SRTC has been family owned since it's humble beginnings in July of 1957.</p>
+            <a href="about.html" class="btn btn-light">Read More</a>
+        </div>
+</section>
+
+
+<!-- Book Online -->
+<section id="book-online" class="py-1">
+            <h2 class="m-heading text-center">The Online <span class="text-primary">Advantage</span></h2>
+            <div class="paragraph-two">
+                <p id="paragraph-two">Plan your escape from wherever you are and get incentives for booking online. <br> Book now and Save up to twenty five percent on all VIP suites and family rooms.</p>
+            </div>
+            <div class="online-container">
+            <article class="card">
+                <img src="img/Room.jpg" alt="pool">
+                <div>
+                        <h3>
+                            <a href="reservations.html">T&C from $175.00 a Night</a>
+                        </h3>
+                        <p>When you book online with Sunrise, you get the rooms you need the most at prices that are sure to satisfy. Your Sunrise experience starts here and we want it to be memorable in all the right ways. Take a look at the villas and suites we have available and find out how soon you can make the most of our five-star amenities. </p>
+                </div>
+                <img src="img/Room2.jpg" alt="">
+            </article>
+            <article class="card">
+                    <div>
+                            <h3>
+                                <a href="reservations.html">Frequent Specials</a>
+                            </h3>
+                            <p>We're pulling out all the stops and making sure that you're able to find what you need when it comes to your great escape. Sunrise features monthly and sometimes bi-monthly specials on rooms, travel packages, and venues for all of your important events. Don't forget to ask about our continental breakfast when you book a room with an ocean-side balcony.</p>
+                            <img src="img/Grand Turk1.jpg" alt="Turk">
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam ex repudiandae deserunt quidem possimus. Veniam quidem consequuntur placeat laudantium repudiandae fuga quia accusantium assumenda doloribus possimus. Deserunt aperiam modi sit?</p>
+                        </div>
+                </article>
+                <article class="card">
+                        <img src="img/Grand Turk3.jpg" alt="pool">
+                                <h3>
+                                    <a href="reservations.html">From Anywhere</a>
+                                </h3>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium explicabo a, laborum quos vero voluptate! Dicta eius repellendus necessitatibus numquam, nam voluptatem optio, culpa voluptatibus quasi, nobis possimus blanditiis esse.</p>
+                                <img src="img/Baker'sBay.jpg" alt="Golf">
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem voluptatum eum culpa quidem explicabo amet, deserunt adipisci magnam dolorem voluptatem.</p>
+                            </div>
+                    </article>
+            </div>
+</section>
+
+<section id="partners" class= "py-1">
+    <div class="container">
+            <h2 class="m-heading text-center"><span class="text-primary">OUR</span> Partners </h2>
+            <div class="items py-1">
+                    <div><img src="./img/Leo_palace.png" alt="Partners"></div>
+                    <div><img src="./img/royal_orchid.png" alt="Partners"></div>
+                    <div><img src="./img/Outrigger.png" alt="Partners"></div>
+                    <div><img src="./img/Nikko.png" alt="Partners"></div>
+                  </div>
+    </div>
+</section>
+
+
+<footer id="main-footer" class="py-2">
+    <div class="footer-container">
+        <div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, praesentium aut voluptatum reprehenderit blanditiis ratione laudantium adipisci quod dolorum nesciunt?</p>
+        </div>
+        <div>
+            <h3>Updates & Offers</h3>
+            <p>Be the first to see what Sunrise Resort has in store.</p>
+            <form>
+                <input type="email" placeholder="Enter Email">
+                <input type="submit" value="Subscribe" class="btn btn-primary ">
+            </form>
+        </div>
+        <div>
+            <h3>Site Links</h3>
+            <ul class="list">
+                <li><a href="#">Help & Support</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+        <div>
+            <h2>Join Our Club</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, iure!</p>
+            <a href="#" class="btn btn-secondary">Join Now</a>
+        </div>
+        <div>
+          <p>
+              Sunrise Resorts &copy; 2019, All Rights Reserved
+          </p>
+        </div>
+    </div>
+    </footer>
+
+    </body>
+    </html>
+
+    <script src="js/main.js"></script>
