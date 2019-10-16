@@ -621,14 +621,13 @@ ul li ul{
 /* Footer */
 #main-footer {
   text-align: center;
+  bottom: 0;
   padding: 5px;
-  margin-top: 200px;
-}
-
-#main-footer {
+  /* margin-top: 200px; */
   background: #272727e8;
   color: #a0a0a0;
 }
+
 
 
 #main-footer a {

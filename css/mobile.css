@@ -183,10 +183,12 @@
 }
 
 #main-footer {
-  display: block;
+  display: none;
   margin: 0 10px;
 }
 
 #main-footer .footer-container {
   display: block;
 }
+
+
