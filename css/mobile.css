@@ -35,6 +35,7 @@
   font-size: 25px;
   text-align: center;
   margin-left: 0px;
+  display: none;
 }
 
 #showcase .text-primary {
@@ -59,7 +60,7 @@
 #home-info .info-content {
   float: none;
   width: 100%;
-  height: auto%;
+  height: auto;
 }
 
 #home-info h2 {
@@ -165,6 +166,28 @@
 .l-heading {
   text-align: center;
   line-height: 1.2;
+}
+
+.booking-buttons h3 {
+  font-size: 20px;
+}
+
+.booking-buttons {
+  display: none;
+}
+
+.checkbox-tools {
+  display: none;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+
+.checkbox-tools button {
+  display: none;
+  width: 100%;
 }
 
 /* Contact */
