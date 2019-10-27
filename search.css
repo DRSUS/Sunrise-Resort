@@ -3,10 +3,9 @@
 	margin: 0;
 	outline: none;
 }
-html
+
 body {
-	html,
-body {
+
   font-family: "Julius Sans One", sans-serif;
   line-height: 1.7em;
   background-image: url(../img/hotel_batik_bg.png);
@@ -15,7 +14,7 @@ body {
   background-attachment: fixed;
   background-size: cover;
 }
-}
+
 a {
 	text-decoration: none;
 	color: #62befb;
@@ -28,6 +27,8 @@ li {
 }
 h2 {
 	font-weight: normal;
+	font-size: 40px;
+	font-family: "Julius Sans One", sans-serif;
 
 }
 /* for containers */
@@ -44,7 +45,7 @@ h2 {
 	height: 30px;
 }
 .calendar th, .graph {
-	font-family: "Gotham Medium", sans-serif;
+	font-family: "Julius Sans One", sans-serif;
 	color: #666666;
 }
 /*buttons*/
@@ -58,7 +59,7 @@ h2 {
 	box-shadow: 0 3px 5px rgba(0,0,0,0.2), 0 1px 2px rgba(0,0,0,0.8);
 	border-radius: 4px;
 	font-size: 15px;
-	font-family: "Gotham Book", sans-serif;
+	font-family: "Julius Sans One", sans-serif;;
 	cursor: pointer;
 	-webkit-transition: background-color 0.2s;
 	   -moz-transition: background-color 0.2s;
@@ -96,40 +97,40 @@ button.button-big {
 .input-text input, .input-text textarea, .div-file label {
 	border: none;
 	background-color: transparent;
-	font-family: "Gotham Light", sans-serif;
+	font-family: "Julius Sans One", sans-serif;
 	color:#999999;
 }
 /*placeholders hell*/
 .container .input-text input::-webkit-input-placeholder, .container .input-text textarea::-webkit-input-placeholder {
 	color:#999999;
-	font-family: "Gotham Light", sans-serif;
+	font-family: "Julius Sans One", sans-serif;
 	font-size: 14px;
 }
 .container .input-text input::-moz-placeholder, .container .input-text textarea::-moz-placeholder {
 	color:#999999;
-	font-family: "Gotham Light", sans-serif;
+	font-family: "Julius Sans One", sans-serif;
 	font-size: 14px;
 }
 .container .input-text input:-moz-placeholder, .container .input-text textarea:-moz-placeholder {
 	color:#999999;
-	font-family: "Gotham Light", sans-serif;
+	font-family: "Julius Sans One", sans-serif;
 	font-size: 14px;
 }
 .container .input-text input:-ms-input-placeholder, .container .input-text textarea:-ms-input-placeholder {
 	color:#999999;
-	font-family: "Gotham Light", sans-serif;
+	font-family: "Julius Sans One", sans-serif;
 	font-size: 14px;
 }
 
 
 #overlay {
-	z-index:3; /* пoдлoжкa дoлжнa быть выше слoев элементoв сaйтa, нo ниже слoя мoдaльнoгo oкнa */
-	position:fixed; /* всегдa перекрывaет весь сaйт */
-	background-color:#000; /* чернaя */
-	opacity:0.8; /* нo немнoгo прoзрaчнa */
+	z-index:3;
+	position:fixed;
+	background-color:#000;
+	opacity:0.8;
 	width:100%;
-	height:100%; /* рaзмерoм вo весь экрaн */
-	top:0; /* сверху и слевa 0, oбязaтельные свoйствa! */
+	height:100%;
+	top:0;
 	left:0;
 	display: none;
 }
@@ -141,8 +142,8 @@ button.button-big {
 	width: 346px;
 	height: 426px;
 	position: fixed;
-	top: 50%; /* oтступaем сверху 45%, oстaльные 5% пoдвинет скрипт */
-	left: 50%; /* пoлoвинa экрaнa слевa */
+	top: 50%;
+	left: 50%;
 	margin-top: -213px;
 	margin-left: -173px;
 	z-index: 5;
@@ -215,8 +216,8 @@ button.button-big {
 /***** Booking form *****/
 
 .booking {
-	width: 346px;
-	height: 626px;
+	width: 450px;
+    height: 650px;
 }
 .is-sent{
 	animation: launch 1s ease-in-out forwards
@@ -240,18 +241,22 @@ button.button-big {
 	position: relative;
 	color: #fff;
 }
+
 .booking .header div {
 	position: absolute;
 	left: 22px;
 	top: 117px;
 }
+
 .booking .header h2 {
-	font-size: 25px;
+	font-size: 35px;
 }
+
 .booking .header p {
-	font-family: "Gotham Light", sans-serif;
+	font-family: "Julius Sans One", sans-serif;
 	margin: 4px 0 0 21px;
 }
+
 .booking .header .icon {
 	background-position: 0 -60px;
 	position: absolute;
@@ -259,20 +264,27 @@ button.button-big {
 	top: 33px;
 
 }
+
 /*inputs*/
 .booking .dates, .booking .persons {
 	width: 296px;
-	margin: 26px auto 0 auto;
+    margin: 5px auto 0 auto;
+    margin-bottom: 0px;
 }
+
 .booking label:not(.checkbox) {
 	display: block;
+	font-family: "Julius Sans One", sans-serif;
 }
+
 .booking .dates .input-text {
 	margin-top: 10px;
 }
+
 .booking .dates .input-text:nth-child(2) {
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 }
+
 .booking .input-text .icon {
 	width: 36px;
 	height: 36px;
@@ -281,11 +293,13 @@ button.button-big {
 	background-position: 10px -80px;
 	cursor: pointer;
 }
+
 /*checkbox*/
 .div-chck {
 	position: relative;
 	margin-top: 16px;
 }
+
 .div-chck input, .div-chck .icon.input-text  {
 	top: -2px;
 	left: 0;
@@ -293,40 +307,51 @@ button.button-big {
 	width: 23px;
 	height: 23px;
 }
+
 .div-chck input {
 	opacity: 0;
 	z-index: 1;
 }
+
 .div-chck .icon.input-text {
 	background-position: -30px -415px;
 	background-repeat: no-repeat;
 	padding: 0;
 	margin: 0;
 }
+
 .div-chck input:checked+.icon {
 	background-position: 4px -415px;
 }
+
 .div-chck label{
 	margin-left: 34px;
+	font-family: "Julius Sans One", sans-serif;
 }
+
 /*selects*/
 .booking .persons li {
 	display: inline-block;
 	font-size: 0;
 	width: 45%;
 }
+
 .booking .persons li:last-child {
 	padding-left: 20px;
 }
+
 .booking .persons label {
 	font-size: 14px;
+	font-family: "Julius Sans One", sans-serif;
 }
+
 .booking .persons .input-text {
 	width: 138px;
 	height: 45px;
 	padding: 0;
 	margin-top: 9px;
 }
+
 .booking .persons select {
 	font-size: 14px;
 	width: 100%;
@@ -344,12 +369,15 @@ button.button-big {
 		 -o-appearance: none;
 			appearance: none;
 }
+
 .booking .persons option {
 	background-color: #f4f4f4;
 }
+
 .booking .persons option:hover {
 	background-color: red;
 }
+
 .booking .persons .icon {
 	background-position: 15px -106px;
 }
@@ -360,6 +388,7 @@ button.button-big {
 	padding-left: 20px;
 	margin-top: 40px;
 }
+
 .booking .button-big .icon {
 	background-position: 0 -150px;
 	position: absolute;
