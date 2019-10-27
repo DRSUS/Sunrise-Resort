@@ -1,3 +1,5 @@
+
+
 #navbar .logo {
   float: none;
   text-align: center;
@@ -20,14 +22,23 @@
 }
 
 #book-online .text-center {
+  display: none;
   margin-top: 20px;
+  position: relative;
+}
+
+#paragraph-two {
+  display: none;
+}
+
+#home-info .bg-gradient {
+  position: absolute;
 }
 
 /* Showcase */
 #showcase {
-  height: 100%;
+  height: 50vh;
   padding-top: 70px;
-  /* height: fit-content; */
 }
 
 #showcase .showcase-content h1 {
@@ -51,9 +62,11 @@
   font-size: 16px;
 }
 
+
 /* Home Info */
 #home-info .info-img {
-  display: none;
+  /* display: none; */
+  width: 100%;
   height: 550px;
 }
 
@@ -73,6 +86,8 @@
 
 #book-online .online-container {
   display: block;
+  margin-bottom: 50px;
+  height: 120vh;
 }
 
 /* Boxes */
@@ -81,9 +96,10 @@
   width: 100%;
 }
 
-.card {
+/* .card {
   display: block;
-}
+  position: fixed;
+} */
 
 /* About */
 #about-info .info-right,
@@ -168,25 +184,14 @@
   line-height: 1.2;
 }
 
+.booking h3 {
+  padding: 30px;
+}
+
 .booking-buttons h3 {
   font-size: 20px;
 }
 
-.booking-buttons {
-  display: none;
-}
-
-.checkbox-tools {
-  display: none;
-    grid-template-columns: repeat(3, 1fr);
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-.checkbox-tools button {
-  display: none;
-  width: 100%;
-}
 
 .modal-content {
   width: 100%;
@@ -205,12 +210,13 @@
 .card {
   width: 100%;
   margin-bottom: 10px;
+  position: fixed;
 }
 
-#main-footer {
+/* #main-footer {
   display: none;
   margin: 0 10px;
-}
+} */
 
 #main-footer .footer-container {
   display: block;
