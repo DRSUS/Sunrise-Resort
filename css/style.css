@@ -298,6 +298,7 @@ mark{
 .booking h3 {
   color: rgb(73, 73, 73);
   text-decoration: underline dotted;
+  font-size: 25px;
 }
 
 .button-search {
@@ -703,7 +704,7 @@ ul li ul{
 }
 
 #home-info .info-content p {
-  padding: 30px;
+  padding: 0 20px 20px;
   color: #d3d1d1;
 }
 
@@ -924,8 +925,10 @@ ul li ul{
 
 #paragraph-two {
   text-align: center;
-  color: #6e6e6e;
-  font-size: 30px;
+  color: #8b8b8b;
+  padding: 10px;
+  font-size: 20px;
+  background-color: #1f2029;
   line-height: 2rem;
 }
 
