@@ -183,10 +183,12 @@
     margin-bottom: 20px;
 }
 
-
-
 .checkbox-tools button {
   display: none;
+  width: 100%;
+}
+
+.modal-content {
   width: 100%;
 }
 

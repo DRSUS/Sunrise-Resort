@@ -462,7 +462,7 @@ img {
 }
 
 .modal-content {
-  background: linear-gradient(rgb(221, 47, 47), #fff);
+  background: linear-gradient(#358ef3, #fff);
   /* display: block; */
   margin: 20px auto;
   padding: 20px;
@@ -500,6 +500,7 @@ img {
     padding: 14px 20px;
     font-size: 17px;
     margin: 8px 0;
+    border-radius: 10px;
     border: none;
     cursor: pointer;
     width: 100%;
