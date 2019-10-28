@@ -184,6 +184,11 @@
   line-height: 1.2;
 }
 
+.booking {
+  display: block;
+  width: 100%;
+}
+
 .booking h3 {
   padding: 30px;
   font-size: 30px;
