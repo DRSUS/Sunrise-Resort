@@ -134,7 +134,7 @@ h2 {
 	cursor: pointer;
   }
 
-  #id01 .container button {
+  #id01 .container-modal button {
 	  background-color: rgb(15, 219, 255);
 	  color: #5c5c5c;
 	  padding: 14px 20px;
@@ -146,7 +146,7 @@ h2 {
 	  width: 100%;
 	}
 
-	#id01 .container .cancelbtn {
+	#id01 .container-modal .cancelbtn {
 	  width: 50%;
 	}
 
@@ -171,10 +171,11 @@ h2 {
 
 	#id01 .cancelbtn {
 	  width: 50px;
+
 	}
 
 
-	#id01 .container input {
+	#id01 .container-modal input {
 	  height: 40px;
 	  width: 100%;
 	  margin: 10px 0;
@@ -209,15 +210,24 @@ h2 {
 	border-radius: 4px;
 	box-shadow: 0 0 10px rgba(0,0,0,0.2), 0 2px 3px rgba(0,0,0,0.4);
 }
+
 .container .icon {
 	background-image: url('https://res.cloudinary.com/dw369yzsh/image/upload/v1483213851/icons_wykol9.png');
 	width: 27px;
 	height: 30px;
 }
+
+#id01 .container-modal {
+	background-color: none;
+}
+
+
 .calendar th, .graph {
 	font-family: "Julius Sans One", sans-serif;
 	color: #666666;
 }
+
+
 /*buttons*/
 .container button {
 	text-transform: uppercase;
